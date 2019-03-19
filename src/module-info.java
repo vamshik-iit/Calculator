@@ -2,7 +2,7 @@
  * 
  */
 /**
- * @author User
+ * @author KUSA VAMSHI
  *
  */
 module calculator {

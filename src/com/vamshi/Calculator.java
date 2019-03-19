@@ -15,23 +15,15 @@ public class Calculator {
 try {
 	    switch(operator)
 	    {
-	        case '+':
-	        	result = first_number + second_number;
-	            break;
-
-	        case '-':
-	        	result = first_number - second_number;
-	            break;
-
-	        case '*':
-	        	result = first_number * second_number;
-	            break;
-
-	        case '/':
-	        	result = first_number / second_number;
-	            break;
-	        default:
-	            	throw new RuntimeException();
+	        case '+':result = first_number + second_number;
+	                  break;
+            case '-':result = first_number - second_number;
+	                  break;
+	        case '*':result = first_number * second_number;
+	                  break;
+	        case '/':result = first_number / second_number;
+	                  break;
+	        default: throw new RuntimeException();
 	    }
 	    return result;
 	 }
@@ -41,6 +33,4 @@ catch(RuntimeException e)
 	return 1;
 }
 	}
-
-
 }
